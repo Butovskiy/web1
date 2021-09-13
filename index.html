@@ -32,13 +32,14 @@
         	<li><a href="https://www.kubsu.ru/" rel="nofollow"> Cсылка, по которой запрещен переход поисковикам</a></li>
         	<li><a href="https://www.kubsu.ru/" rel="noindex">  Ссылка, запрещенная для индексации поисковиками</a></li>
         	<li>Пробная версия <a href="https://www.kubsu.ru/">контекстной ссылки</a> в тексте</li>
-        	<li><a href="https://www.kubsu.ru/"><img src="https://vsthemes.org/uploads/posts/2017-10/1582030821_marble_vsthemes_ru-16.jpg" width="300" title="Ссылка-изображение"></a></li>
-        	<li>
+        	<li>Ссылка-изображение:</br>
+        		<a href="https://www.kubsu.ru/"><img src="https://vsthemes.org/uploads/posts/2017-10/1582030821_marble_vsthemes_ru-16.jpg" width="400" height="260" title="Ссылка-изображение"></a></li>
+        	<li>Ссылки из прямоугольных и круглых областей картинки:</br>
 				<map name = "click">
-					<area shape = "circle" coords="200, 100, 80" href="https://www.kubsu.ru/" title="Круг">
-    				<area shape = "rect" coords="5,5,100,290" href="https://www.kubsu.ru/" title="Прямоугольник">
+					<area shape = "circle" coords="250, 130, 85" href="https://www.kubsu.ru/" title="Круг">
+    				<area shape = "rect" coords="10,10,130,240" href="https://www.kubsu.ru/" title="Прямоугольник">
     			</map>
-				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP26SXVnGDLbtQGizpXaAZHO8FtDmmTp1RPV1f2vHU6xRTV9gmi7V_aspDt_sKemh3yuc&usqp=CAU" width="300" height="200" usemap="#click">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP26SXVnGDLbtQGizpXaAZHO8FtDmmTp1RPV1f2vHU6xRTV9gmi7V_aspDt_sKemh3yuc&usqp=CAU" width="400" height="260" usemap="#click">
    			</li>
         	<li><a href="/str.html">Относительная ссылка на страницу в текущем каталоге</a></li>
         	<li><a href="/about/str.html">Относительная ссылка на страницу в каталоге about</a></li>
@@ -51,13 +52,13 @@
 
         	<form naction="/" method="post">
         		<label>
-        			Имя:
-        			<input type="txt" name="Name" placeholder="Введите ваше имя" size="20" />	
+        			Имя:&nbsp&nbsp *
+        			<input type="txt" name="Name" placeholder="Введите ваше имя" size="20" required />	
         		</label></br>
 
         		<label>
-        			Email:
-       				<input type="email" name="Email" placeholder="Введите вашу почту" />
+        			E-mail:*
+       				<input type="email" name="Email" placeholder="Введите вашу почту" required />
         		</label></br>
 
         		<label>
@@ -100,23 +101,17 @@
         		Сверхспособности:</br>
         		<select name="Super" multiple="multiple">
           			<option value="1" >Бессмертие</option>
-          			<option value="2">Прохождение сквозь стены</option>
+          			<option value="2">Прохождение сквозь стены &nbsp</option>
         			<option value="3">Левитация</option>
        			</select></br>
 
        			Биография:</br>
-       			<textarea name="Life" placeholder="Расскажите о себе"></textarea></br>
+       			<textarea name="Life" cols="25" rows="4" placeholder="Расскажите о себе"></textarea></br>
 
-       			<input type="checkbox" name="check" />
-       			C контрактом ознакомлен(а)</input></br>
+       			<input type="checkbox" name="check" required>
+       			*C контрактом ознакомлен(а)</input></br>
 
        			<input type="submit" value="Отправить" />
-
-
-    <legend>Контактная информация</legend>
-    <p><label for="name">Имя <em>*</em></label><input type="text" id="name"></p>
-    <p><label for="email">E-mail</label><input type="email" id="email"></p>
- 
         	</form>
         </ol>
 	</body>

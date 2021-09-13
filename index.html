@@ -52,12 +52,12 @@
 
         	<form naction="/" method="post">
         		<label>
-        			Имя:&nbsp&nbsp *
+        			Имя:&nbsp&nbsp <font color="red">*</font>
         			<input type="txt" name="Name" placeholder="Введите ваше имя" size="20" required />	
         		</label></br>
 
         		<label>
-        			E-mail:*
+        			E-mail:<font color="red">*</font>
        				<input type="email" name="Email" placeholder="Введите вашу почту" required />
         		</label></br>
 
@@ -90,7 +90,7 @@
        				2
        			</label>
       			<label>
-      				<input type="radio" name="Body"  />
+      				<input type="radio"  name="Body"  />
         			3
         		</label>
         		<label>
@@ -109,7 +109,7 @@
        			<textarea name="Life" cols="25" rows="4" placeholder="Расскажите о себе"></textarea></br>
 
        			<input type="checkbox" name="check" required>
-       			*C контрактом ознакомлен(а)</input></br>
+       			<font color="red">*</font>C контрактом ознакомлен(а)</input></br>
 
        			<input type="submit" value="Отправить" />
         	</form>

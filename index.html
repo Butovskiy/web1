@@ -7,9 +7,10 @@
     	<title>
     		Задание №1
 		</title>
+		<h2>&nbsp &nbsp Задание 1</h2>
 	</head>
 	<body>
-		</br>
+		
 		<ol>
 			<li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
 			<li><a href="https://example.com">Абсолютная на главную сайта example.com в протоколе https</a></li>
@@ -48,15 +49,15 @@
 
         	<h2>Форма</h2>
 
-        	<form naction="/" method="post">
+        	<form naction="/" method="post" >
         		<label>
-        			Имя:</br> 
-        			<input type="txt" name="Name" value="Введите ваше имя" />	
+        			Имя:
+        			<input type="txt" name="Name" placeholder="Введите ваше имя" size="20" />	
         		</label></br>
 
         		<label>
-        			Email:</br>
-       				<input type="email" name="Email" value="Введите вашу почту" />
+        			Email:
+       				<input type="email" name="Email" placeholder="Введите вашу почту" />
         		</label></br>
 
         		<label>
@@ -64,7 +65,7 @@
         			<input type="date" name="Birthday" />
         		</label></br>
 
-        		Пол:</br>
+        		Пол:
         		<label>
         			<input type="radio" checked="checked" name="Pol" value="1" />
        				М
@@ -72,7 +73,7 @@
       			<label>
       				<input type="radio" name="Pol" value="2" />
         			Ж
-        		</label><br />
+        		</label></br>
 
         		Количество конечностей:</br>
         		<label>
@@ -98,15 +99,15 @@
 
         		Сверхспособности:</br>
         		<select name="Super" multiple="multiple">
-          			<option value="1">Бессмертие</option>
+          			<option value="1" >Бессмертие</option>
           			<option value="2">Прохождение сквозь стены</option>
         			<option value="3">Левитация</option>
        			</select></br>
 
        			Биография:</br>
-       			<textarea name="Life">Расскажите о себе</textarea></br>
+       			<textarea name="Life" placeholder="Расскажите о себе"></textarea></br>
 
-       			<input type="checkbox" checked="checked" name="check" />
+       			<input type="checkbox" name="check" />
        			C контрактом ознакомлен(а)</input></br>
 
        			<input type="submit" value="Отправить" />
